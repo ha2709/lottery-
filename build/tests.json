@@ -1,0 +1,33 @@
+{
+  "contracts": {
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "Lottery": "329726ce2f5929544df9624311a0c815e866696a",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/SafeMathChainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/test_lottery_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "F",
+      "sha1": "b4be1298101ba1dce08debb4bce81852105cb705",
+      "txhash": []
+    },
+    "tests/test_lottery_unit.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "....F",
+      "sha1": "9ac975e1c6d81e3f14b0d4a152601430274d9142",
+      "txhash": [
+        "9326c851fd500a3656e53335025ff81e0a255ce9"
+      ]
+    }
+  },
+  "tx": {
+    "9326c851fd500a3656e53335025ff81e0a255ce9": {}
+  }
+}
